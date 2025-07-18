@@ -1,0 +1,41 @@
+valign 
+
+cellspacing
+    dist btw cells in table
+
+cellpadding
+    space btw inner walls and content of cell
+
+Forms
+    collect data from user
+    interface btw server and user
+    info from browser to server
+    syntax:     <form action = 'url'>
+                ...
+                </form>
+
+    Action attribute
+        The action attribute specifies where to send the form-data when a form is submitted.
+        
+
+    Methods attribute
+        GET
+            GET is used to request data from a specified resource.
+            url limit = 3000 charcaters
+            url in name/value pair
+            non - secure data
+
+        POST
+            POST is used to send data to a server to create/update a resource.
+            form data inside the body of the http request
+            data not in url
+            secure
+            no url => same page
+    
+
+
+
+
+
+
+
