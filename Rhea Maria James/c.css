@@ -1,0 +1,43 @@
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .example-box {
+      border: 3px solid #007BFF;
+      padding: 15px;
+      margin: 20px 0;
+      color: #333333;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: italic;
+      font-variant: small-caps;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      text-align: center;
+      line-height: 1.5;
+      background-color: #e1f0ff;
+      border-radius: 8px;
+    }
+
+    .styled-list {
+      border: 2px dashed #28a745;
+      padding: 15px;
+      background-color: #e6ffe6;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 16px;
+      color: #1a3d1a;
+      line-height: 1.6;
+      border-radius: 6px;
+    }
+
+    .styled-list ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .styled-list li {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
