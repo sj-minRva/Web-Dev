@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Handler Example</title>
+</head>
+<body>
+  <p id="message">Welcome</p>
+  <button id="myButton">Click</button>
+
+  <script>
+    // Select the paragraph and button
+    const para = document.getElementById("message");
+    const btn = document.getElementById("myButton");
+
+    // Register an event handler for the button
+    btn.addEventListener("click", function() {
+      para.innerHTML = "<b>Hello from JavaScript</b>";
+    });
+  </script>
+</body>
+</html>
