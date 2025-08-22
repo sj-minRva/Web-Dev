@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Factorial Program</title>
+</head>
+<body>
+  <script>
+    // Get input from user using prompt
+    let num = prompt("Enter a number to find its factorial:");
+
+    // Convert the input to integer
+    num = parseInt(num);
+
+    // Initialize factorial result
+    let fact = 1;
+
+      // Calculate factorial
+    for (let i = 1; i <= num; i++) {
+        fact *= i;
+      }
+      // Show result
+      alert("Factorial of " + num + " is " + fact);
+    
+  </script>
+</body>
+</html>
