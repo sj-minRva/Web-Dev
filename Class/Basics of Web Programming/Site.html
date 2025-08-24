@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jobsite Registration Form</title>
+</head>
+<body>
+    <h2>Jobsite Registration Form</h2>
+    <form action="#" method="post">
+        
+        <!-- Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Contact Number -->
+        <label for="contact">Contact Number:</label><br>
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" 
+               placeholder="10-digit number" required><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Gender -->
+        <label>Sex:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Areas of Interest -->
+        <label>Areas of Interest:</label><br>
+        <input type="checkbox" id="web" name="interest" value="Web Development">
+        <label for="web">Web Development</label><br>
+        <input type="checkbox" id="ai" name="interest" value="Artificial Intelligence">
+        <label for="ai">Artificial Intelligence</label><br>
+        <input type="checkbox" id="data" name="interest" value="Data Science">
+        <label for="data">Data Science</label><br>
+        <input type="checkbox" id="network" name="interest" value="Networking">
+        <label for="network">Networking</label><br><br>
+
+        <!-- Experience -->
+        <label for="experience">Experience:</label><br>
+        <select id="experience" name="experience" required>
+            <option value="">--Select--</option>
+            <option value="fresher">Fresher</option>
+            <option value="1-2 years">1-2 years</option>
+            <option value="3-5 years">3-5 years</option>
+            <option value="5+ years">5+ years</option>
+        </select><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
